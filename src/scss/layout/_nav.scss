@@ -19,22 +19,19 @@
 
 
 
-// @media (min-width: 375px) {
-//   .nav  {
-
-//       grid-column-gap: 20px;
-
-//       grid-row-gap: 10px;
-//       display: grid;
-//       grid-template-columns: 80px 200px auto;
-//     height: 12vh;
-
+@media (max-width: 600px) {
+  .nav  {
+    padding: 3rem;
    
-//      }  
-//      .header{
-//       height: 34vh ;
-//      } 
-//      .header .header__wrap{
-//       margin: 10px;
-//      }
-//   }
+     }  
+
+     .nav__logo{
+      width: 100%;
+     }
+     .header{
+      height: 0px ;
+     } 
+     .header .header__wrap{
+      margin: 10px;
+     }
+  }
