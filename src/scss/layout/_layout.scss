@@ -1,0 +1,292 @@
+// @import 'nav';
+// @import 'header';
+// @import 'main';
+// @import 'footer';
+// @import 'forms';
+
+.container-main{
+    display: grid;
+    // grid-template-rows: repeat(5, 1fr);
+}
+.container{
+    // width: 80%;
+    margin: auto;
+    display: grid;
+    width: 100%;
+    padding: 3rem;
+}
+
+
+//START SECTION ARTICULO
+
+.articulo__text{
+    flex-basis: 50%;
+    text-align: left;
+    align-self: center;
+  }
+  
+
+.articulo__container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 6rem;
+    flex-direction: column;
+    column-gap: 1.5rem;
+
+}
+
+.articulo__title{
+  color: var(--color--blue);
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.articulo__text h3::after{
+    position: absolute;
+    width: 253.08px;
+    left: 0px;
+    top: 0px;
+    bottom: 253.81px;
+    border: 5.67092px solid #486DB7;
+    transform: rotate(90deg);
+}
+.articulo__img{
+    margin: 2rem;
+}
+
+.span-col-4{
+    grid-column: span 4 / auto;
+    display: flex;
+    justify-content: center;
+
+}
+.articulo__text--style{
+    color: #414141;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 25px;
+
+
+}
+
+//FIN SECTION ARTICULO
+
+
+//START SECTION PSICOLOGY
+.psicolo__containerM{
+    display: grid;
+}
+.psicolo__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 17px;
+    grid-row-gap: 40px;
+
+}
+
+.psicolo__container .psicolo__card__one{
+    max-width: 45rem;
+    padding-right: 0.5rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+    background-color: #fff;
+    border-radius: 0.5rem;
+    // border-style: solid;
+    border-color: #e2e8f0;
+   display: flex;
+}
+.psicolo__card__one__img{
+    margin: 1rem;
+}
+.psicolo__container .psicolo__card__one .psicolo__card__one__img h4{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+.psicolo__container .psicolo__card__one .psicolo__card__one__img p{
+    font-size: 17px;
+    color: #000000;
+}
+.psicolo__container .psicolo__card__one .psicolo__card__one__img a{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    color: var(--color--green);
+    text-decoration-line: underline;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+
+
+
+.psicolo__title{
+    color: var(--color--blue);
+    font-size: 50px;
+    font-weight: 400;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  
+
+//FIN SECTION PSICOLOGY
+
+
+
+
+//START BANNER IMG
+.banner__img{
+    width: 100%;
+    margin-top: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+
+//FIN BANNER IMG
+
+
+//START SECTION FAQ
+
+.faq__title{
+    color: var(--color--blue);
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+.accordion{
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(225,225,225,1);
+    overflow: hidden;
+    transition: height 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.accordion .accordion_tab{
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.accordion .accordion_tab .accordion_arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+.accordion .accordion_tab .accordion_arrow img{
+  width: 100%;
+  height: 100%;
+}
+
+.accordion .accordion_tab.active .accordion_arrow{
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion.active{
+  height: 320px;
+}
+
+.accordion .accordion_content{
+  padding: 20px;
+  border-top: 1px solid #e9e9e9;
+}
+
+.accordion .accordion_content .accordion_item{
+  margin-bottom: 20px;
+}
+
+.accordion .accordion_content .accordion_item p.item_title{
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #6adda2;
+}
+
+.accordion .accordion_content .accordion_item p:last-child{
+  color: #9a9b9f;
+  font-size: 14px;
+  line-height: 20px;
+}
+  
+//FIN SECTION FAQ
+
+
+
+// START SECTION TESTIMONIAL SLIDER
+
+  
+
+
+//   FIN SECTION TESTIMONIAL SLIDER
+
+
+
+
+
+
+.button__primary{
+    display: flex;
+    margin-top: 50px;
+    flex-flow: row wrap; 
+    flex-basis: 50%;
+    border: solid 2px;
+    border-radius: 49px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px
+}
+
+.button__primary .button__primary--color{
+    flex-basis: 50%;
+    // border: solid 2px;
+    border-radius: 49px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    background-color: var(--color-purple);
+    box-shadow: (0px 5.84px 7.78667px rgba(0, 0, 0, 0.2));
+}
+.button__primary .button__primary--color:hover{
+
+    background-color: rgba(255,255,255, .3);
+    color: var(--color-purple);
+    border: 2px solid var(--color-purple);
+}
+
+
+// START MEDIA QUERY
+
+@media (max-width: 784px) {
+    .psicolo__container {
+        grid-template-columns: 100%;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+    }
+    .psicolo__card__one{
+        max-width: 55rem !important;
+        justify-content: center;
+    }
+  }

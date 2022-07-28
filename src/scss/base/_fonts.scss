@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@100;300;500;600;700&family=Rubik:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600&family=Teko:wght@300;400;500&display=swap');
+
+
+/**
+ * Basic typography style for copy text
+ */
+ body {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6,a {
+  font-family: var(--font-primary);
+}

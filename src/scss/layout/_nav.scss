@@ -1,0 +1,32 @@
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 12rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  height: 64px;
+}
+// .nav__logo {
+//   width: 63%;
+// }
+.nav__link {
+    color: #000;
+    font-size: 1.25rem;
+}
+
+
+
+
+@media (max-width: 784px) {
+  .nav  {
+
+      grid-column-gap: 343px;
+      justify-content: initial;
+      grid-row-gap: 10px;
+      padding: 1rem;
+      
+   
+     }   
+  }

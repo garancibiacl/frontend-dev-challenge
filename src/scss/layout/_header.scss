@@ -1,0 +1,84 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+h2{
+    color: #fff;
+    
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/hero.png');
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .header-title{
+    width: 35%;
+  }
+
+  .header .header__wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: left;
+  }
+  .header .header__wrap .header__box{
+    flex-basis: 50%;
+    text-align: left;
+    align-self: center;
+  }
+  .header .header__wrap .header__box h1{
+    font-size: 4rem;
+    color: #fff;
+    line-height: 78px;
+    letter-spacing: 1px;
+
+  }
+  .header .header__wrap .header__box .header__button{
+    display: flex;
+    margin-top: 30px;
+    flex-flow: row wrap;
+}
+
+.header .header__wrap .header__box .header__button{
+  display: flex;
+  margin-top: 30px;
+  flex-flow: row wrap;
+}
+    
+
+.header .header__wrap .header__box .header__button .header__button--primary{
+  flex-basis: 50%;
+  border: solid 2px;
+  border-radius: 49px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+
+.header .header__wrap .header__box .header__button .header__button--primary:hover{
+  background-color: rgba(255,255,255, .3);
+}
+
+
+
+
+  
+
+
+
+
+@media (max-width: 600px) {
+    .header {
+        width: 100%;
+    }
+  }

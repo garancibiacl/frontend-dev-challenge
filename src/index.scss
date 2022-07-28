@@ -1,0 +1,18 @@
+// Abstract
+@import './scss/abstracts/_variables';
+@import './scss/abstracts/_mixins';
+
+/* Base*/
+@import './scss/base/_base';
+@import './scss/base/_reset';
+@import './scss/base/_fonts';
+
+
+// Layout
+@import './scss/layout/_nav';
+@import './scss/layout/_header';
+@import './scss/layout/_layout';
+@import './scss/layout/_card';
+@import './scss/layout/_inputs';
+@import './scss/layout/_testimonialSlider';
+@import './scss/layout/_footer';
