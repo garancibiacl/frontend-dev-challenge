@@ -4,12 +4,13 @@ import logo from "../img/logo.svg";
 function SectionDestacado() {
   return (
 
-    <div>               <h1 className="container__destacado__title">
+<div class="container__destacado">
+  <div class="container__destacado__card">
+  <h1 className="container__destacado__title">
     <strong>DESTACADO</strong>
   </h1>
-    <div class="container__destacado">
-
-   <div class="container__card">
+  </div>
+  <div class="container__card">
     <div class="card-header">
       <img
         src="https://lamenteesmaravillosa.com/wp-content/uploads/2022/07/hermano-mayor-abrazando-hermano-pequeno-768x512.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe"
@@ -25,8 +26,6 @@ function SectionDestacado() {
       </p>
     </div>
   </div>
-
-
   <div class="container__card">
     <div class="card-header">
       <img
@@ -43,7 +42,6 @@ function SectionDestacado() {
       </p>
     </div>
   </div>
-
   <div class="container__card">
       <div class="card-header">
         <img
@@ -62,12 +60,11 @@ function SectionDestacado() {
         </p>
       </div>
     </div>
-      
-      </div>
-  
-      </div>
+</div>
  
   );
 }
 
 export default SectionDestacado;
+
+

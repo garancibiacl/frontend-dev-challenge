@@ -6,13 +6,14 @@ import img from "../img/photo-01.png";
 
 function SectionPsicology() {
   return (
-    <div className="psicolo__containerM">
-      <h1 className="psicolo__title">
-        <strong>PSICOLOGÍA</strong> EDUCATIVA
-      </h1>
-
-      <div className=" row psicolo__container">
-        <div class=" psicolo__card__one">
+    <div class="psicolo__container">
+  <div class="psicolo__titleP">
+<h1 className="psicolo__title">
+   <strong>PSICOLOGÍA</strong> EDUCATIVA
+</h1>
+  </div>
+  <div class="psicolo__container__card">
+  <div class=" psicolo__card__one">
           <img src={img} width="200" alt="" />
 
           <div className="psicolo__card__one__img">
@@ -24,8 +25,9 @@ function SectionPsicology() {
             <a href="">VER MÁS</a>
           </div>
         </div>
-        
-        <div class=" psicolo__card__one">
+  </div>
+  <div class="psicolo__container__card">
+  <div class=" psicolo__card__one">
           <img src={img} width="200" alt="" />
 
           <div className="psicolo__card__one__img">
@@ -37,7 +39,9 @@ function SectionPsicology() {
             <a href="">VER MÁS</a>
           </div>
         </div>
-        <div class=" psicolo__card__one">
+  </div>
+  <div class="psicolo__container__card">
+  <div class=" psicolo__card__one">
           <img src={img} width="200" alt="" />
 
           <div className="psicolo__card__one__img">
@@ -49,7 +53,9 @@ function SectionPsicology() {
             <a href="">VER MÁS</a>
           </div>
         </div>
-        <div class=" psicolo__card__one">
+  </div>
+  <div class="psicolo__container__card">
+  <div class=" psicolo__card__one">
           <img src={img} width="200" alt="" />
 
           <div className="psicolo__card__one__img">
@@ -61,8 +67,8 @@ function SectionPsicology() {
             <a href="">VER MÁS</a>
           </div>
         </div>
-      </div>
-    </div>
+  </div>
+</div>
   );
 }
 

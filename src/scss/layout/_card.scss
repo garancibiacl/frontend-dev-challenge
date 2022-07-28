@@ -1,23 +1,21 @@
 .container__card{
-    margin: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    width: 325px;
-    flex: 1 1 150px;
-
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
+
 .container__destacado{
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-template-rows: 1fr;
-    grid-column-gap: 33px;
-    // grid-row-gap: 0px;
-    // padding:4rem;
-    padding: 4rem;
-    display: flex;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  margin-top: 11rem;
+}
+.container__destacado__card{
+  grid-column: span 4 / auto;
 }
 
 .container__card img{
