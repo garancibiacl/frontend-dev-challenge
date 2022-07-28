@@ -130,11 +130,17 @@ textarea {
               0 1px 1px 0 rgba(0,0,0,0.09);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .submit-btn {
         width:100%;
         float: none;
         text-align:center;
+    }
+    .container__email-number{
+        display: grid;
+    }
+    .styled-input.wide{
+        width: 100%;
     }
 }
 
