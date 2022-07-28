@@ -282,3 +282,20 @@ justify-content: center;display: flex;
 .container__section{
   grid-column: span 4 / auto;
 }
+
+
+
+@media (max-width: 600px) {
+  .articulo__container  {
+    padding: 1rem;
+     }
+     .articulo__title__secundary{
+      grid-column: span 4 / auto;
+     }
+     .articulo__title__secundary img {
+
+      width: 100%;
+      padding: 2rem;
+  }
+     
+  }
