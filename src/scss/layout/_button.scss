@@ -43,3 +43,14 @@
     color: var(--color-purple);
     border: 2px solid var(--color-purple);
 }
+
+
+
+@media (max-width: 600px) {
+
+    .button__primary{
+        display: inherit;
+        width: 100%;
+    
+    }
+}

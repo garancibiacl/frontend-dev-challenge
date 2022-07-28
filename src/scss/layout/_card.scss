@@ -76,3 +76,13 @@
 }
 
 
+
+
+@media (max-width: 600px) {
+  .psicolo__container__card {
+    grid-column: span 4/auto;
+}
+.psicolo__title{
+  margin-top: 5rem;
+}
+}
