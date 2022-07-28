@@ -1,24 +1,51 @@
 import React from "react";
 import logo from "../img/logo.svg";
+import Hamburger from 'hamburger-react'
+// import { useState } from 'react';
+// import { SlButton, SlDrawer } from '@shoelace-style/shoelace/dist/react';
+
+// import { Drawer, ANCHOR } from "baseui/drawer";
 
 function Nav() {
+
+  // const [isOpen, setIsOpen] = React.useState(false);
+
   return (
-    <nav className="nav">
-      <a class="nav__link" href="#">
-        <box-icon
-          name="menu"
-          color="#414141"
-          // size="md"
-        ></box-icon>
+
+      <div className="nav ">
+        
+
+      <a class="nav__link" href="#"  >
+      <Hamburger size={30}    />
       </a>
 
+   
       <a class="nav__link" href="#">
-        <img class="nav__logo" src={logo} width="160px" alt='' />
+        <img class="nav__logo" src={logo} width="230px" alt='' />
       </a>
+  
+
+
       <a class="nav__link" href="#">
-        <box-icon name="search-alt" color="#414141"></box-icon>
+        <box-icon name="search-alt" color="#414141" size={30} ></box-icon>
       </a>
-    </nav>
+
+
+
+  
+
+    {/* <>
+    <Drawer
+      isOpen={isOpen}
+      autoFocus
+      onClose={() => setIsOpen(false)}
+      anchor={ANCHOR.left}
+    >
+      <div>drawer content</div>
+    </Drawer>
+    </> */}
+   </div>
+
   );
 }
 

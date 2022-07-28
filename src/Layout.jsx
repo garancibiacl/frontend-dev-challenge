@@ -15,27 +15,28 @@ import "./App.scss";
 function App() {
   return (
     <div className="container-main">
+   
       {/* <!-- Navbar --> */}
       <Nav />
+      
       {/* <!-- Header --> */}
       <Header />
 
       <div className="container">
-<SectionArticulo/>
-<SectionPsicology/>
-<img className="banner__img"  src={banner}  alt='' />
-<SectionFaq/>
-<TestimonialSlider/>
-<SectionDestacado/>
-<SectionContacto/>
-
-
+ 
+        <SectionArticulo />
+        <SectionPsicology />
+        <img className="banner__img" src={banner} alt="Separator" />
+        <SectionFaq />
+        <TestimonialSlider />
+        <SectionDestacado />
+        <SectionContacto />
       </div>
-      <Footer/>
-    </div>
 
-    
+      <Footer />
+    </div>
   );
 }
 
 export default App;
+

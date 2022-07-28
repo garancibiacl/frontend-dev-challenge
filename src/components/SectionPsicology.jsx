@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../img/photo-01.png";
-import ButtonPrimary from "./ButtonPrimary";
+
 
 // import logo from "../img/logo.svg";
 
