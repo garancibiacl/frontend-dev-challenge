@@ -27,11 +27,13 @@ function SectionFaq() {
 
 
   return (
-    <div className="faq__containerM">
-    <h1 className="faq__title">
+<div class="container__faq">
+  <div class="container__faq__answer">
+  <h1 className="faq__title">
       <strong>PREGUNTAS</strong>&nbsp;  FRECUENTES
     </h1>
-    <div class="wrapper">
+  </div>
+  <div class="container__faq__answer">
   <div class="accordion active">
     <div class="accordion_tab active">
     ¿Por qué nos gusta creer en el mito del alma gemela?
@@ -50,6 +52,7 @@ function SectionFaq() {
       </div>
     </div>
   </div>
+  <div class="container__faq__answer">
   <div class="accordion">
     <div class="accordion_tab">
         Accordion Title
@@ -68,6 +71,10 @@ function SectionFaq() {
       </div>
     </div>
   </div>
+
+
+  </div>
+  <div class="container__faq__answer">
   <div class="accordion">
     <div class="accordion_tab">
         Accordion Title
@@ -85,10 +92,14 @@ function SectionFaq() {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quis sed praesentium dolorem hic ipsam maiores magnam voluptatem deleniti sunt.</p>
       </div>
     </div>
+  </div>
+
+  </div>
   </div>
 </div>
-    </div>
   );
 }
 
 export default SectionFaq
+
+

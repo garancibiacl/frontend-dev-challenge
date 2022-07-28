@@ -170,6 +170,15 @@ justify-content: center;display: flex;
 
 //START SECTION FAQ
 
+.container__faq{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.container__faq__answer{
+  grid-column: span 4 / auto;
+}
+
 .faq__title{
     color: var(--color--blue);
     font-size: 50px;
@@ -296,6 +305,9 @@ justify-content: center;display: flex;
 
       width: 100%;
       padding: 2rem;
+  }
+  .accordion{
+    width: 100%;
   }
      
   }
