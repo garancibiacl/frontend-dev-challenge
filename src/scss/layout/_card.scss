@@ -94,7 +94,9 @@
   height: 25vh;
   border-radius: 12px;
 }
-
+.container__card{
+  grid-column: span 4 / auto;
+}
 
 }
 
