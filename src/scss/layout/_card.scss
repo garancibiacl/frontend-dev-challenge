@@ -85,4 +85,18 @@
 .psicolo__title{
   margin-top: 5rem;
 }
+.psicolo__container .psicolo__card__one{
+  grid-column: span 4 / auto;
+  display: grid;
 }
+.psicolo__container .psicolo__card__one img{ 
+  width: 103%;
+  height: 25vh;
+  border-radius: 12px;
+}
+
+
+}
+
+
+
