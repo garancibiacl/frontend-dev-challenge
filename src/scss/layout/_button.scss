@@ -49,9 +49,9 @@
 @media (max-width: 600px) {
 
     .button__primary{
-        display: flex;
+        display: grid;
         width: 100%;
-        justify-content: center;
+       
     
     }
 }
