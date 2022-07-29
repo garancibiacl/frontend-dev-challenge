@@ -48,3 +48,38 @@
     text-decoration:underline ;
 }
 
+
+@media (max-width: 600px) {
+    .footer__container  {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+ 
+    }
+    .footer__logo {
+        grid-column: span 4/auto;
+        width: 73%;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    .footer__text{
+        grid-column: span 4 / auto;
+        width: 100%;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    
+    }
+    .footer__img{
+        grid-column: span 4 / auto;
+        width: 100%;
+    }
+    .footer__item__container {
+        grid-column: span 4/auto;
+        display: grid;
+        justify-content: center;
+        grid-gap: 40px;
+        justify-content: start;
+        margin-top: 2rem;
+    }
+
+    }
+

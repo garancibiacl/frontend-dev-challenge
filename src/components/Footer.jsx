@@ -20,7 +20,7 @@ function Footer() {
     <img className="footer__img"  src={Separator}  alt='' /> 
 </div>
 
-<div className=' footer__separacion footer__item__container'>
+<div className='footer__item__container'>
   <div className=''>
     <a href="">Política de Cookies</a>
   </div>
