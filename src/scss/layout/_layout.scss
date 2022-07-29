@@ -292,6 +292,9 @@ justify-content: center;display: flex;
   grid-column: span 4 / auto;
 }
 
+.banner__img--mobile{
+  display: none;
+}
 
 
 @media (max-width: 600px) {
@@ -327,6 +330,25 @@ justify-content: center;display: flex;
     margin-top: 2rem;
     margin-bottom: 2rem; 
   }
+  .articulo__text--style{
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .banner__img{
+    display: none;
+  }
+  .banner__img--mobile{
+    display: grid;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .accordion .accordion_tab{
+    font-size: 17px;
+  }
 
      
   }
+

@@ -49,8 +49,9 @@
 @media (max-width: 600px) {
 
     .button__primary{
-        display: inherit;
+        display: flex;
         width: 100%;
+        justify-content: center;
     
     }
 }

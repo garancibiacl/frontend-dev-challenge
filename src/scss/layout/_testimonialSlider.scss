@@ -1,6 +1,5 @@
 .swiper {
     width: 100%;
-    height: 100%;
   }
   
   .swiper-slide {
@@ -46,7 +45,7 @@
     font-size: 1.15em;
     color: #333;
     width: 70%;
-
+    font-family: 'Merriweather', serif;
 
 
   }
@@ -90,7 +89,11 @@ background-color: var(--color-purple);
       margin-top: 2rem;
       margin-bottom: 2rem; 
     }
-  
+    .swiper-slide p{
+      margin: auto;
+    font-size: 15px;
+    width: 100%;
+    }
   
   }
   

@@ -38,7 +38,7 @@ export default function App() {
         <div class="active">
                         <div class="img"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/05/doctor-20.jpg" alt=""/></div>
                         <h2>Lorem P. Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>                    
                     </div>
         </SwiperSlide>
 
@@ -46,16 +46,14 @@ export default function App() {
         <div class="active">
                         <div class="img"><img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/kartik-aaryan-1045198-08-12-2017-06-34-11.jpg" alt=""/></div>
                         <h2>Lorem P. Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                    </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>                        </div>
         </SwiperSlide>
 
         <SwiperSlide>
         <div class="active">
                         <div class="img"><img src="https://timesofindia.indiatimes.com/thumb/msid-75752690,width-800,height-600,resizemode-4/75752690.jpg" alt=""/></div>
                         <h2>Lorem P. Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                    </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>                        </div>
         </SwiperSlide>
       </Swiper>
     </>

@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
-.footer__container{
+.footer__container {
     background-color: #265E6C;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -9,7 +9,7 @@
     padding: 2rem;
 }
 
-.footer__text{
+.footer__text {
     color: #fff;
     font-weight: 400;
     font-weight: lighter;
@@ -19,7 +19,8 @@
     font-size: 15px;
     padding-left: 0rem;
 }
-.footer__logo{
+
+.footer__logo {
 
     padding-top: 4rem;
     padding-bottom: 3rem;
@@ -27,51 +28,62 @@
     justify-content: end;
     padding-right: 8rem;
 }
-.footer__separacion{
+
+.footer__separacion {
     grid-column: span 4 / auto;
     display: flex;
     justify-content: center;
 }
-.footer__separacion img{
+
+.footer__separacion img {
     width: 1130px;
 }
-.footer__item__container{
+
+.footer__item__container {
     grid-column: span 4/auto;
     display: flex;
     justify-content: center;
     grid-gap: 100px
 }
-.footer__item__container a{
+
+.footer__item__container a {
     color: #fff;
 }
-.footer__item__container a:hover{
-    text-decoration:underline ;
+
+.footer__item__container a:hover {
+    text-decoration: underline;
 }
 
 
 @media (max-width: 600px) {
-    .footer__container  {
+    .footer__container {
         grid-template-columns: repeat(2, 1fr);
         display: grid;
- 
+
     }
+
     .footer__logo {
         grid-column: span 4/auto;
         width: 73%;
         padding-top: 1rem;
         padding-bottom: 0rem;
+        display: grid;
     }
-    .footer__text{
+
+    .footer__text {
         grid-column: span 4 / auto;
         width: 100%;
         padding-top: 1rem;
         margin-bottom: 2rem;
-    
+        line-height: 30px;
+
     }
-    .footer__img{
+
+    .footer__img {
         grid-column: span 4 / auto;
         width: 100%;
     }
+
     .footer__item__container {
         grid-column: span 4/auto;
         display: grid;
@@ -81,5 +93,13 @@
         margin-top: 2rem;
     }
 
+    .footer__separacion {
+        display: grid;
+        justify-content: center;
     }
 
+    .footer__separacion img {
+        width: 100%;
+    }
+
+}

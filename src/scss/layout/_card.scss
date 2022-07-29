@@ -12,7 +12,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
-  margin-top: 11rem;
 }
 .container__destacado__card{
   grid-column: span 4 / auto;
@@ -88,11 +87,13 @@
 .psicolo__container .psicolo__card__one{
   grid-column: span 4 / auto;
   display: grid;
+  border-radius: 7px;
 }
 .psicolo__container .psicolo__card__one img{ 
   width: 103%;
-  height: 25vh;
-  border-radius: 12px;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 7px;
 }
 .container__card{
   grid-column: span 4 / auto;
@@ -102,6 +103,9 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem; 
+}
+.psicolo__container .psicolo__card__one .psicolo__card__one__img a{
+  margin-bottom: 1rem;
 }
 
 }
