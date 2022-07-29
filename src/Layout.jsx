@@ -9,14 +9,15 @@ import SectionDestacado from "./components/SectionDestacado";
 import SectionContacto from "./components/SectionContacto";
 // import Footer from "./components/Footer";
 import "./index.scss";
-
+import React, { useRef } from "react";
 import "./App.scss";
 
 function App() {
+  const divRef = useRef();
   return (
 <div class="container__main">
 
-  <div class="container__section">  
+  <div class="container__section" ref={divRef}>  
    <SectionArticulo />
    </div>
   <div class="container__section">
