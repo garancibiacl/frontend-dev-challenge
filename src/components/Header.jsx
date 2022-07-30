@@ -10,7 +10,7 @@ export default class Header extends Component {
             <h2>Conoce nuestro profesionales con licencia</h2>
             <h1>
               Su viaje de
-              <strong style={{ color: "#F778B9" }}>salud emocional </strong>
+              <strong style={{ color: "#F778B9" }}>  salud emocional </strong>
               empieza aqui
             </h1>
             <div className="header__button">
