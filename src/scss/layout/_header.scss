@@ -64,12 +64,22 @@ h2{
   color: #fff;
   font-size: 22px;
   cursor: pointer;
+
+
 }
 
 .header .header__wrap .header__box .header__button .header__button--primary:hover{
   background-color: rgba(255,255,255, .3);
+  cursor: pointer;
 }
 
+.header__button--primary{
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 
 
