@@ -46,7 +46,7 @@ function Nav() {
       <a class="nav__logo__container" href="#">
         <img class="nav__logo" src={logo} width="230px" alt="" />
       </a>
-      <a class="nav__link" href="#">
+      <a class="nav__search" href="#">
         <box-icon name="search-alt" color="#414141" size={30}></box-icon>
       </a>
     </div>

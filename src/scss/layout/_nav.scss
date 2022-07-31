@@ -66,7 +66,7 @@
   display: block;
   position: fixed;
   top: 0;
-  left: -100%;
+  left: -1115%;
   width: 380px;
   height: 100%;
   margin: 0;
@@ -99,16 +99,22 @@
      }  
 
      .nav__logo{
-      max-width: 75%;
+      max-width: 60%;
      }
      .nav__logo__container{
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
      }
      .header{
       height: 0px ;
      } 
      .header .header__wrap{
       margin: 10px;
+     }
+     .nav__search{
+      display: none;
+     }
+     .menu__btn{
+      top: 43px !important;
      }
   }
