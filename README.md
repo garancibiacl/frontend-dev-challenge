@@ -13,7 +13,12 @@
 - Css, Grid, flex-box, transition, Medias Query, Metodología BEM
 - SCSS/SASS
 - JavaScript
-- Librerias de React Animate Hambuger
+
+# Extras:
+- Menu Sidebar
+- Efecto Scroll desplazamiento
+- Diseño Responsive
+- Biblioteca Swiper para la función deslizar
 
 
 🎨  UI Design en Figma [Ver Mockups:](https://www.figma.com/file/lhMQbdjD9pLvj8LfB4WPMX/Figma-Test-Challenge?node-id=0%3A1)
