@@ -9,6 +9,7 @@
   padding: 3rem 20rem;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 // .nav__logo {
 //   width: 63%;
@@ -116,5 +117,8 @@
      }
      .menu__btn{
       top: 43px !important;
+     }
+     #menu__toggle{
+      display: flex;
      }
   }
