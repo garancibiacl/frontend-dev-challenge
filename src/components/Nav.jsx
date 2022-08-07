@@ -15,33 +15,51 @@ function Nav() {
         <label class="menu__btn" for="menu__toggle">
           <span></span>
         </label>
-        <ul class="menu__box">
-          <li>
-            <a class="menu__item" href="#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a class="menu__item" href="#">
-              About
-            </a>
-          </li>
-          <li>
-            <a class="menu__item" href="#">
-              Team
-            </a>
-          </li>
-          <li>
-            <a class="menu__item" href="#">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a class="menu__item" href="#">
-              Instagram
-            </a>
-          </li>
-        </ul>
+
+        <div class="menu__box">
+          <a class="menu__title" href="">Embarazo</a>
+          <ul >
+
+            <li>
+              <a class="menu__item" href="#">
+                Quiero ser mamá
+                <box-icon name='right-arrow-alt'></box-icon>
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                Voy a ser mamá
+                <box-icon name='right-arrow-alt'></box-icon>
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                Parto
+                <box-icon name='right-arrow-alt'></box-icon>
+              </a>
+            </li>
+            <a class="menu__title" href="">Educación</a>
+            <li>
+              <a class="menu__item" href="#">
+                Aprende a ser mamá
+                <box-icon name='right-arrow-alt'></box-icon>
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                Educación para bebés
+                <box-icon name='right-arrow-alt'></box-icon>
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                Educación para niños
+                <box-icon name='right-arrow-alt'></box-icon>
+
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <a class="nav__logo__container" href="#">
         <img class="nav__logo" src={logo} width="230px" alt="" />
